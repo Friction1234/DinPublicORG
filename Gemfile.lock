@@ -115,14 +115,12 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.1)
     minitest (5.17.0)
       ruby2_keywords (>= 0.0.5)
+    mocha (2.0.2)
+      ruby2_keywords (>= 0.0.5)
     msgpack (1.6.0)
-    nio4r (2.5.8)
-    nokogiri (1.14.0)
-      mini_portile2 (~> 2.8.0)
-      racc (~> 1.4)
+    nio4r (2.5.9)
     nokogiri (1.14.0-x86_64-linux)
       racc (~> 1.4)
     octicons (18.2.0)
@@ -133,7 +131,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (5.0.1)
-    puma (5.6.6)
+    puma (6.3.0)
       nio4r (~> 2.0)
     racc (1.6.2)
     rack (2.2.6.2)
@@ -238,7 +236,6 @@ GEM
     zeitwerk (2.6.6)
 
 PLATFORMS
-  ruby
   x86_64-linux
 
 DEPENDENCIES
@@ -257,9 +254,10 @@ DEPENDENCIES
   lookbook (~> 1.5.2)
   matrix (~> 0.4.2)
   minitest (~> 5.0)
+  mocha
   primer_view_components!
   pry
-  puma (~> 5.6.4)
+  puma (~> 6.3.0)
   rack (~> 2.0)
   rack-cors
   railties (= 7.0.3)
